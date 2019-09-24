@@ -177,8 +177,16 @@ ul,li{
 function addUser(username,age,cellphone){
 	
 	$("#"+username).remove();
-	$('#membergroup > tbody').append('<tr><td>'+username+'</td><td>'+age+'</td><td>'+cellphone+'</td></tr>');
+	$('#membergroup > tbody').append('<tr id="'+username+'" class="trrow"><td>'+username+'</td><td>'+age+'</td><td>'+cellphone+'</td><td><input type="button" value="삭제하기" onclick="delUser(\''+username+'\','+age+',\''+cellphone+'\');"></td></tr>');
 }
+
+function delUser(username,age,cellphone){
+	
+	$("#"+username).remove();
+	$('#usergroup > tbody').append('<tr id="'+username+'" class="trrow"><td>'+username+'</td><td>'+age+'</td><td>'+cellphone+'</td><td><input type="button" value="추가하기" onclick="addUser(\''+username+'\','+age+',\''+cellphone+'\');"></td></tr>');
+}
+
+
 </script>
 <body>
 
@@ -215,7 +223,8 @@ function addUser(username,age,cellphone){
 					<tr>
 						<th style="width:20%" class="thead">이름</th>
 						<th style="width:30%" class="thead">나이</th>
-						<th style="width:20%" class="thead">핸드폰번호</th>
+						<th style="width:30%" class="thead">핸드폰번호</th>
+						<th style="width:20%" class="thead">삭제</th>
 					</tr>
 				</thead>
 			
