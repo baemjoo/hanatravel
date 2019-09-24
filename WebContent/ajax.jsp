@@ -121,30 +121,18 @@ ul,li{
     animation: animate-positive 2s;
 }
 .progress .progress-bar:after{
-    /* content: "";
-    width: 50px;
-    height: 50px;
-  	border: 6px double blue;
-    outline: 2px solid #23e454; 
-    position: absolute;
-    top: -6px;
-    right: 0; */
+
     display:block;
-    background: url(../airplane.png);
-    background-size: 50px 50px;
-    width: 50px; 
-    height: 50px;
+    background: url(airplane.png);
+    background-size: 80px 80px;
+    width: 80px; 
+    height: 80px;
     position: absolute;
     top:-15px;
-    right: 0;
+    right: -15px;
     content:"";
 }
 
-.imagespan{
-	width:50px;
-	heigth:50px;
-	background-image: url('airplane.png');
-}
 
 
 @-webkit-keyframes animate-positive{
@@ -262,9 +250,8 @@ function delUser(username,age,cellphone){
                 
                 
            	<div class="progress">
-                <div class="progress-bar" style="width:80%;"></div>
+                <div class="progress-bar" style="width:0%;"></div>
             </div>
-            <div class="imagespan">dd</div>
             
 		</div>
 	
