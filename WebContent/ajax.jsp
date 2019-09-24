@@ -98,29 +98,63 @@ ul,li{
 	text-align:center;
 	padding: 0 auto;
 }
-.progressTag {
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-        width: 60%;
-        height: 30px;
-        border-radius: 7px;
-        color: #27b2a5;
-      }
-      progress::-webkit-progress-bar {
-        background-color: grey;
-        border-radius: 8px;
-      }
-      progress::-webkit-progress-value {
-        background-color: #27b2a5;
-        border-radius: 8px;
-      }
-      progress::-moz-progress-bar {
-        background-color: grey;
-        border-radius: 8px;
-      }
-      
-      
+
+
+.progress{
+
+	width:80%;
+    height: 20px;
+    margin-top:50px;
+    background: #27b2a5;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    overflow: visible;
+    position: relative;
+    
+}
+.progress .progress-bar{
+    height: 20px;
+    background-color:red;
+    border-radius: 15px;
+    box-shadow: none;
+    position: relative;
+    animation: animate-positive 2s;
+}
+.progress .progress-bar:after{
+    /* content: "";
+    width: 50px;
+    height: 50px;
+  	border: 6px double blue;
+    outline: 2px solid #23e454; 
+    position: absolute;
+    top: -6px;
+    right: 0; */
+    display:block;
+    background: url(../airplane.png);
+    background-size: 50px 50px;
+    width: 50px; 
+    height: 50px;
+    position: absolute;
+    top:-15px;
+    right: 0;
+    content:"";
+}
+
+.imagespan{
+	width:50px;
+	heigth:50px;
+	background-image: url('airplane.png');
+}
+
+
+@-webkit-keyframes animate-positive{
+    0% { width: 0; }
+}
+@keyframes animate-positive{
+    0% { width: 0; }
+}
+
+
 .usercontent2{
 	max-width:100%;
 	margin: 10px auto;
@@ -168,8 +202,26 @@ ul,li{
 	text-align:center;
 	vertical-align: middle;
 }
-</style>
 
+
+</style>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js">
+$(document).ready(function(){
+    $('.progress-value > span').each(function(){
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        },{
+            duration: 1500,
+            easing: 'swing',
+            step: function (now){
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
+});
+
+</script>
+ 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 </head>
 <script>
@@ -199,7 +251,21 @@ function delUser(username,age,cellphone){
 		<h1>그룹 메인 사진 및 그룹 명칭</h1>
 		
 		<div id="bar-div">
-			<progress class="progressTag" value="50" max="100"></progress>	
+		
+			<h3 class="progress-title">그룹 달성 현황</h3>
+            <!-- <div class="progress">
+                <div class="progress-bar" style="width:65%;">
+                    <span class="progress-icon fa fa-globe"></span>
+                    <div class="progress-value"><span><img src="airplane.png" style="width:50px;height:50px;"></span></div>
+                </div>
+            </div> -->
+                
+                
+           	<div class="progress">
+                <div class="progress-bar" style="width:80%;"></div>
+            </div>
+            <div class="imagespan">dd</div>
+            
 		</div>
 	
 	</div>
@@ -237,7 +303,7 @@ function delUser(username,age,cellphone){
 		
 		<div class="usercontent2">
 			<div class="usercontentheader">
-				상세분석
+				멤버 리스트 현황
 			</div>
 			<table id="usergroup" class="detailtablelist">
 				<thead>
