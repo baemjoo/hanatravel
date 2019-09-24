@@ -22,7 +22,7 @@
 	<div id="outer_container">
 	    <div id="inner_container" style="width:300px;">
 	    	<div id="service_introduction">
-				<img src="service_introduction.png" style="width:300px; border:2px solid lightgray;"/>
+				<img src="image/service_introduction.png" style="width:300px; border:2px solid lightgray;"/>
 	    	</div>
 	    	<div id="service_summary">
 				<div id="service_text" style="position:relative; height:150px; border:2px solid lightgray; margin-top:10px;">
