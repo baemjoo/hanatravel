@@ -182,21 +182,19 @@ ul,li{
 	float:left;
 }
 .userdiv{
-	width:90%;
+	width:100%;
 	height:50px;
-	margin:1%;
 	display:inline-block;
 }
 .userdiv-progress{
 	margin:2%;
-	width:80%;	
+	width:60%;	
 	height:30px;
 	float:left;
 }
 .userdiv-button{
-	margin:2%;
 	width:10%;	
-	height:30px;
+	height:50px;
 	float:left;
 }
 .progress-title{
@@ -291,6 +289,19 @@ ul,li{
     0%{ width: 0; }
 }
 
+
+		.smallbtn{
+			width:100%;
+			background:#1AAB8A;
+			color:#fff;
+			border:none;
+		}
+		.smallbtn:hover{
+			background:#fff;
+			color:#1AAB8A;
+			border:none;
+		}
+
 </style>
 <script>
 function showPopup(){
@@ -301,21 +312,115 @@ function showPopup(){
 </head>
 
 <body>
-	<div id="header">
-		<h1>금융이랑 하금티랑 자카르타 여행</h1>
-		
-			<div class="groupdiv">   
-				<div class="groupdiv-progress">
-		           	<div class="groupprogress">
-		                <div class="progress-bar" style="width:80%; "></div>
-		            </div>
-	            </div>
-	            <div class="groupdiv-result">
-	            	<div>
-		            	<img src="../image/airplane.png" style="width:80px;height:80px;">
-	            	</div>
-	            </div>
-			</div>	
+
+<!-- <header> -->
+	<jsp:include page = "header.jsp" flush="true"></jsp:include>
+<!-- </header> -->
+
+<div id="container">
+
+	<!-- <header> -->
+		<jsp:include page = "groupheader.jsp" flush="true"></jsp:include>
+	<!-- </header> -->
+	
+	<div class="topnav">
+	  <a href="a3.jsp" class="active">그룹 적금 현황</a>
+	  <a href="a4.jsp" >나의 적금 현황</a>
+	  <a href="a5.jsp">여행 경비 사용 현황</a>
+	  <a href="a6.jsp">여행 정보</a>
+	  <a href="a7.jsp">손님후기</a>
 	</div>
+
+
+	<div id="content">
+	
+		<div class="usercontent">
+			<div class="contentheader">
+				<h4>1등 : 김하나님 (440,000원)</h4>
+			</div>
+			
+			<div class="userdiv">
+				<div class="userdiv-progress">
+			        <div class="userprogress blue">
+					    <div class="userprogress-bar" style="width:100%; height:20px; background-color:#1f75c4;">
+					    	<span class="progress-icon fa fa-globe"></span>
+					    	<div class="progress-value"><span>100</span>%</div>
+					     </div>
+			        </div>	
+				</div>
+		
+				<!-- 100%달성시 button 노출 -->
+			    <div class="userdiv-button">
+			        <input type="button" class="smallbtn" value="REWARD">
+			    </div>
+			    <div class="userdiv-button">
+			        <input type="button" class="smallbtn" value="REWARD" onclick="showPopup()">
+			    </div>
+		    </div>
+		</div>
+		
+		<div class="usercontent">
+			<div class="contentheader">
+				<h4>2등 : 하금티님 (440,000원)</h4>
+			</div>
+			
+			<div class="userdiv">
+				<div class="userdiv-progress">
+			        <div class="userprogress orange">
+					    <div class="userprogress-bar" style="width:100%; height:20px; background-color:#fe3b3b;">
+					    	<span class="progress-icon fa fa-globe"></span>
+					    	<div class="progress-value"><span>100</span>%</div>
+					     </div>
+			        </div>	
+				</div>
+				
+			    <div class="userdiv-button">
+			        <input type="button" class="smallbtn" value="REWARD" onclick="showPopup()">
+			    </div>
+			     <div class="userdiv-button">
+			        <input type="button" class="smallbtn" value="REWARD" onclick="showPopup()">
+			    </div>
+		    </div>
+		</div>
+		
+		
+		<div class="usercontent">
+			<div class="contentheader">
+				<h4>3등 : 박금융님 (308,000원)</h4>
+			</div>
+			
+			<div class="userdiv">
+			<div class="userdiv-progress">
+		        <div class="userprogress green">
+				    <div class="userprogress-bar" style="width:65%; height:20px; background-color:#53aa2c;">
+				    	<span class="progress-icon fa fa-globe"></span>
+				    	<div class="progress-value"><span>65</span>%</div>
+				     </div>
+		        </div>	
+			</div>
+			
+		    <div class="userdiv-button">
+		        <input type="button" class="smallbtn" value="REWARD">
+		    </div>
+		    </div>
+		</div>
+		
+	</div>
+</div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+	<div id="content">
+		fasdf
+	</div>
+	<button onclick="myFunction()">Try it</button>
+  </div>
+</div>
+
+<!-- <footer> -->
+	<jsp:include page = "footer.jsp" flush="true"></jsp:include>
+<!-- </footer> -->
 </body>
 </html>
