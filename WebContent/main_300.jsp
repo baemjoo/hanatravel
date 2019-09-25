@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>여행HANA</title>
 	<%
 //		세션으로부터 아이디 및 이름을 받아보자!
 // 		String userId = (String)session.getAttribute("sessionId");					//아이디
