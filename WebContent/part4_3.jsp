@@ -251,10 +251,10 @@ ul,li{
 					</tr>
 					
 					<tr class="trrow">
-						<td>17.05.07</td>
-						<td>제주몸국</td>
-						<td>40,000</td>
-						<td>317,932</td>
+						<td>17.05.08</td>
+						<td>비자림</td>
+						<td>3,000</td>
+						<td>354,932</td>
 					</tr>
 					
 					<tr class="trrow">
