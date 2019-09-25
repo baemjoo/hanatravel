@@ -123,7 +123,7 @@ ul,li{
 .topnav a {
   float: left;
   display: block;
-  color: #27b2a5;
+  color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;

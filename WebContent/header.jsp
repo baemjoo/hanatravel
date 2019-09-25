@@ -11,6 +11,7 @@
 	<%
 // 		String user_id = (String)session.getAttribute("session_id");
 // 		String user_name = (String)session.getAttribute("session_name");
+//		테스트
 	%>
 <div>
 	<div id="top-line" style="position:relative; width:100.7%; height:4px; color:black; top:4px; left:-0.4%; background-color:#2eb4a8;"></div>

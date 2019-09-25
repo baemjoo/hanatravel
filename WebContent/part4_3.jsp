@@ -204,42 +204,24 @@ ul,li{
 			<table class="detailtablelist">
 				<thead>
 					<tr>
-						<th style="width:20%" class="thead">날짜</th>
+						<th style="width:15%" class="thead">날짜</th>
 						<th style="width:30%" class="thead">입출금내역</th>
 						<th style="width:20%" class="thead">입출금액</th>
 						<th style="width:20%" class="thead">잔액</th>
-						<th style="width:10%" class="thead">코드</th>
+						<th style="width:15%" class="thead">범주</th>
 					</tr>
 				</thead>
-			
 		
 				<tbody>
 					
-					<%-- DB 반복 <c:forEach items="" var=""> --%>
-					<tr class="trrow">
-						<td>yyyymmdd</td>
-						<td>xxxxx적금 자동출금</td>
-						<td>nnn,nnn,nnn</td>
-						<td>nnn,nnn,nnn</td>
-						<td>nn</td>
-					</tr>
 					
 					<tr class="trrow">
-						<td>yyyymmdd</td>
-						<td>xxxxx적금 자동출금</td>
-						<td>nnn,nnn,nnn</td>
-						<td>nnn,nnn,nnn</td>
-						<td>nn</td>
+						<td>...</td>
+						<td>...</td>
+						<td>...</td>
+						<td>...</td>
+						<td>...</td>
 					</tr>
-					
-					<tr class="trrow">
-						<td>yyyymmdd</td>
-						<td>xxxxx적금 자동출금</td>
-						<td>nnn,nnn,nnn</td>
-						<td>nnn,nnn,nnn</td>
-						<td>nn</td>
-					</tr>
-					
 				</tbody>
 			</table>
 		</div>
@@ -249,7 +231,7 @@ ul,li{
 				상세분석
 			</div>
 			<div class="usercontentheader">
-				구글 차트 API 사용 예정
+				<!-- <img src="image/chart.PNG" width=80%></img>  -->
 			</div>
 			
 		</div>

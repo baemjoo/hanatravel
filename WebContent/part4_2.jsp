@@ -226,15 +226,17 @@ ul,li{
 		<div class="usercontent2">
 		
 			<div class="usercontentheader">
-				XXX 손님의 현재까지 적금 현황
+				<h3>김하나 손님의 현재까지 적금 현황</h3>
+				<br>
+				<h6>그룹명: 박금융과 자카르타여행</h6>
 			</div>
 			
 			<div id="bar-div">
-				<progress class="progressTag2" value="50" max="100"></progress>	
+				<progress class="progressTag2" value="90" max="100"></progress>	
 			</div>
 			
 			<div class="usercontentfooter">		
-				nn% | nn원
+				90% | 385,000원
 			</div>
 			
 		</div>
@@ -246,9 +248,9 @@ ul,li{
 			<table class="detailtablelist">
 				<thead>
 					<tr>
-						<th style="width:25%" class="thead">날짜</th>
-						<th style="width:40%" class="thead">입금내역</th>
-						<th style="width:25%" class="thead">입금액</th>
+						<th style="width:20%" class="thead">날짜</th>
+						<th style="width:50%" class="thead">입금내역</th>
+						<th style="width:20%" class="thead">입금액</th>
 						<th style="width:10%" class="thead">납부회차</th>
 					</tr>
 				</thead>
@@ -258,24 +260,24 @@ ul,li{
 					
 					<%-- DB 반복 <c:forEach items="" var=""> --%>
 					<tr class="trrow">
-						<td>yyyymmdd</td>
-						<td>xxxxx적금 자동출금</td>
-						<td>nnn,nnn,nnn</td>
-						<td>nn</td>
+						<td>19.09.01</td>
+						<td>하여가 적금 자동출금</td>
+						<td>55,000</td>
+						<td>07</td>
 					</tr>
 					
 					<tr class="trrow">
-						<td>yyyymmdd</td>
-						<td>xxxxx적금 자동출금</td>
-						<td>nnn,nnn,nnn</td>
-						<td>nn</td>
+						<td>19.08.01</td>
+						<td>하여가 적금 자동출금</td>
+						<td>55,000</td>
+						<td>06</td>
 					</tr>
 					
 					<tr class="trrow">
-						<td>yyyymmdd</td>
-						<td>xxxxx적금 자동출금</td>
-						<td>nnn,nnn,nnn</td>
-						<td>nn</td>
+						<td>19.07.01</td>
+						<td>하여가 적금 자동출금</td>
+						<td>55,000</td>
+						<td>06</td>
 					</tr>
 					
 				</tbody>
