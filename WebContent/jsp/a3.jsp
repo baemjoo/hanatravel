@@ -188,6 +188,14 @@ ul,li{
 	clear: both;
 	display:flex;
 }
+
+.userdiv2{
+	width:100%;
+	height:50px;
+	margin:1%;
+	clear: both;
+	display:flex;
+}
 .userdiv-progress{
 	margin:2%;
 	width:80%;	
@@ -393,7 +401,7 @@ function remit(){
 				<h4>1등 : 김하나님 (440,000원)</h4>
 			</div>
 			
-			<div class="userdiv">
+			<div class="userdiv2">
 			<div class="userdiv-progress">
 		        <div class="userprogress blue">
 				    <div class="userprogress-bar" style="width:100%; height:20px; background-color:#1f75c4;">
@@ -418,7 +426,7 @@ function remit(){
 				<h4>2등 : 하금티님 (440,000원)</h4>
 			</div>
 			
-			<div class="userdiv">
+			<div class="userdiv2">
 			<div class="userdiv-progress">
 		        <div class="userprogress orange">
 				    <div class="userprogress-bar" style="width:100%; height:20px; background-color:#fe3b3b;">
@@ -442,7 +450,7 @@ function remit(){
 				<h4>3등 : 박금융님 (308,000원)</h4>
 			</div>
 			
-			<div class="userdiv">
+			<div class="userdiv2">
 			<div class="userdiv-progress">
 		        <div class="userprogress green">
 				    <div class="userprogress-bar" style="width:65%; height:20px; background-color:#53aa2c;">
