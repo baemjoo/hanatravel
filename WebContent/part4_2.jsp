@@ -228,7 +228,7 @@ ul,li{
 			<div class="usercontentheader">
 				<h3>김하나 손님의 현재까지 적금 현황</h3>
 				<br>
-				<h6>그룹명: 박금융과 다낭여행</h6>
+				<h6>그룹명: 박금융과 자카르타여행</h6>
 			</div>
 			
 			<div id="bar-div">
