@@ -13,10 +13,11 @@
 //		테스트
 	%>
 <div>
-	<div id="top-outermenu" style="positison:relative; width:100%; height:12px; margin-top:5px; text-align:center; color:yellow; border:1px solid #27b2a5; background-color:#27b2a5;">
-		<img src="../image/header_480.png" style="width:1200px; position:relative;"/>
+	<div id="top-outermenu" style="positison:relative; max-width:100%; height:auto; margin-top:5px; text-align:center; color:yellow; border:1px solid #27b2a5; background-color:#27b2a5;">
+		<img src="../image/header_480.png" style="width:100%; height: auto !important;position:relative;"/>
 	</div>
-	<div id="top-outermenu" style="positison:relative;width:100%;height: 33px;margin-top: 157px;text-align:center;color:yellow;border: 1px solid #ebebeb;background-color: #f5f7f8;">
+	<!-- <div id="top-outermenu" style="positison:relative;max-width:100%;height: auto;margin-top: 157px;text-align:center;color:yellow;border: 1px solid #ebebeb;background-color: #f5f7f8;">
+	</div> -->
 </div>
 </body>
 </html>

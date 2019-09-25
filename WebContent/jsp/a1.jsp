@@ -28,9 +28,9 @@ function makegroup(){
 	<jsp:include page = "header.jsp" flush="true"></jsp:include>
 <!-- </header> -->
 	<div id="outer_container">
-	    <div id="inner_container" style="width:1200px;">
+	    <div id="inner_container" style="width:100%;">
 	    	<div id="service_introduction">
-				<img src="../image/service_introduction.png" style="width:1200px; border:2px solid lightgray;"/>
+				<img src="../image/service_introduction.png" style="max-width:100%; border:2px solid lightgray;"/>
 	    	</div>
 	    	<div id="service_summary">
 				<div id="service_text" style="position:relative; height:150px; border:2px solid lightgray; margin-top:10px;">
