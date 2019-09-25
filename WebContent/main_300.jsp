@@ -20,9 +20,9 @@
 <%-- 	<jsp:include page = "header.jsp" flush="true"></jsp:include> --%>
 <!-- </header> -->
 	<div id="outer_container">
-	    <div id="inner_container" style="width:300px;">
+	    <div id="inner_container" style="width:480px;">
 	    	<div id="service_introduction">
-				<img src="image/service_introduction.png" style="width:300px; border:2px solid lightgray;"/>
+				<img src="image/service_introduction.png" style="width:480px; border:2px solid lightgray;"/>
 	    	</div>
 	    	<div id="service_summary">
 				<div id="service_text" style="position:relative; height:150px; border:2px solid lightgray; margin-top:10px;">
@@ -33,11 +33,11 @@
 				</div>	
 	    	</div>
 	    	<div id="service_main" style="position:relative; height:1050px; border:2px solid lightgray; margin-top:10px;">
-		    	<div id="filter_section" align="right" style="position:relative; width:270px; height:20px; border:2px solid lightgray; margin:10px;">
+		    	<div id="filter_section" align="right" style="position:relative; width:450px; height:20px; border:2px solid lightgray; margin:10px;">
 <!-- 		    		클릭 시 js 통해 해당 영역으로 스크롤 이동 -->
 		    		<h6 style="margin:0px;">적금진행중 | 적금완료 | 여행중 | 여행완료</h6>
 		    	</div>
-		    	<div id="list_section" style="position:relative; width:270px; height:985px; border:2px solid lightgray; margin:10px;">
+		    	<div id="list_section" style="position:relative; width:450px; height:985px; border:2px solid lightgray; margin:10px;">
 			    	<div id="new_field" align="right" style="height:50px; border:2px solid lightgray; margin:5px;">
 			    		<button type="button" style="margin:10px; height:30px; width:100px;">그룹 생성하기</button>
 			    	</div>
