@@ -26,10 +26,10 @@
 	    	</div>
 	    	<div id="service_summary">
 				<div id="service_text" style="position:relative; height:150px; border:2px solid lightgray; margin-top:10px;">
-					<h3 class="summary_text1" style="margin-left:10px;">OOO님의 여행적금 참여내역</h3>
-					<h5 class="summary_text2" align="right" style="margin:0 10px 0 0;">그룹가입현황 00</h5>
-					<h5 class="summary_text2" align="right" style="margin:0 10px 0 0;">이번달 적금예정내역 00</h5>
-					<h5 class="summary_text2" align="right" style="margin:0 10px 0 0;">적금 성공 00 | 실패 00</h5>
+					<h3 class="summary_text1" style="margin-left:10px;">김하나님의 여행적금 참여내역</h3>
+					<h5 class="summary_text2" align="right" style="margin:0 10px 0 0;">그룹가입현황 04</h5>
+					<h5 class="summary_text2" align="right" style="margin:0 10px 0 0;">이번달 적금예정내역 03</h5>
+					<h5 class="summary_text2" align="right" style="margin:0 10px 0 0;">적금 성공 01 | 실패 01</h5>
 				</div>	
 	    	</div>
 	    	<div id="service_main" style="position:relative; height:1050px; border:2px solid lightgray; margin-top:10px;">
@@ -44,44 +44,44 @@
 			    	<div id="group_field" style="height:850px; border:2px solid lightgray; margin:5px;">
 <!-- 			    		그룹별로 클릭 시 그룹 상세 내역 접근 필요 -->
 			    		<div style="height:160px; background-color:lightblue; border:2px solid lightgray; margin:5px;">
-							<h2 class="group_text1" style="margin-left:10px;">제목 영역</h2>
-							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 일정 : yy.mm.dd ~ yy.mm.dd</h6>
-							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">(OOOOO 외 n개 도시)</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">참여인원 nn</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">목표액 000,000원 (각 000,000원)</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">진행현황 nn% (000,000원)</h6>
+							<h2 class="group_text1" style="margin-left:10px;">박금융과 다낭여행</h2>
+							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 일정: 19.10.01 ~ 19.10.05</h6>
+							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 도시: 다낭(베트남)</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">참여 인원: 2</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">목표액: 815,458원 (각 407,729원)</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">진행현황 90% (733,912원)</h6>
 			    		</div>
 			    		<div style="height:160px; background-color:lightblue; border:2px solid lightgray; margin:5px;">
-							<h2 class="group_text1" style="margin-left:10px;">제목 영역</h2>
-							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 일정 : yy.mm.dd ~ yy.mm.dd</h6>
-							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">(OOOOO 외 n개 도시)</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">참여인원 nn</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">목표액 000,000원 (각 000,000원)</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">진행현황 nn% (000,000원)</h6>
+							<h2 class="group_text1" style="margin-left:10px;">하나고 친구들과 미국 서부 일주</h2>
+							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 일정: 20.12.21 ~ 21.01.11</h6>
+							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 도시: LA(미국) 외 2개 도시</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">참여 인원: 4</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">목표액: 30,120,000원 (각 7,530,000원)</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">진행현황 10% (3,012,000원)</h6>
 			    		</div>
 			    		<div style="height:160px; background-color:lightblue; border:2px solid lightgray; margin:5px;">
-							<h2 class="group_text1" style="margin-left:10px;">제목 영역</h2>
-							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 일정 : yy.mm.dd ~ yy.mm.dd</h6>
-							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">(OOOOO 외 n개 도시)</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">참여인원 nn</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">목표액 000,000원 (각 000,000원)</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">진행현황 nn% (000,000원)</h6>
+							<h2 class="group_text1" style="margin-left:10px;">가족 여행</h2>
+							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 일정: 20.02.09 ~ 20.02.16</h6>
+							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 도시: 벤쿠버 (캐나다)</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">참여 인원: 3 </h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">목표액: 8,281,680원 (각 2,760,560원)</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">진행현황 45% (5,383,092원)</h6>
 			    		</div>
-			    		<div style="height:160px; background-color:lightblue; border:2px solid lightgray; margin:5px;">
-							<h2 class="group_text1" style="margin-left:10px;">제목 영역</h2>
-							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 일정 : yy.mm.dd ~ yy.mm.dd</h6>
-							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">(OOOOO 외 n개 도시)</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">참여인원 nn</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">목표액 000,000원 (각 000,000원)</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">진행현황 nn% (000,000원)</h6>
+			    		<div style="height:160px; background-color:coral; border:2px solid lightgray; margin:5px;">
+							<h2 class="group_text1" style="margin-left:10px;">하금티와 더블 커플 여행</h2>
+							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 일정: 19.08.15 ~ 19.08.18</h6>
+							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 도시: 푸켓(태국)</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">참여 인원: 4</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">목표액: 3,743,120원 (각 935,780원)</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">진행현황 40% (1,497,248원)</h6>
 			    		</div>
-			    		<div style="height:160px; background-color:lightblue; border:2px solid lightgray; margin:5px;">
-							<h2 class="group_text1" style="margin-left:10px;">제목 영역</h2>
-							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 일정 : yy.mm.dd ~ yy.mm.dd</h6>
-							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">(OOOOO 외 n개 도시)</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">참여인원 nn</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">목표액 000,000원 (각 000,000원)</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">진행현황 nn% (000,000원)</h6>
+			    		<div style="height:160px; background-color:lightgray; border:2px solid lightgray; margin:5px;">
+							<h2 class="group_text1" style="margin-left:10px;">박금융과 일본 쇼핑 투어</h2>
+							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 일정: 17.05.07 ~ 17.05.11</h6>
+							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 도시: 오사카(일본)</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">참여 인원: 2</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">목표액: 1,832,432원 (각 916,216원)</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">진행현황 100% (1,832,432원)</h6>
 			    		</div>
 			    	</div>
 			    	<div id="pagenation_field" align="center" style="height:50px; border:2px solid lightgray; margin:5px;">
