@@ -14,6 +14,32 @@
 // 		String userSavingOk = (String)session.getAttribute("sessionSavingOk");		//적금성공
 // 		String userSavingFail = (String)session.getAttribute("sessionSavingFail");	//적금실패
 	%>
+	
+	<style type="text/css">
+		.topnav {
+		  background-color: #fff;
+		  overflow: hidden;
+		}
+		
+		.topnav a {
+		  float: left;
+		  display: block;
+		  color: #000;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  font-size: 17px;
+		  border-bottom: 3px solid transparent;
+		}
+		
+		.topnav a:hover {
+		  border-bottom: 3px solid #27b2a5;
+		}
+		
+		.topnav a.active {
+		  border-bottom: 3px solid #27b2a5;
+		}	
+	</style>
 </head>
 <body>
 <!-- <header> -->
@@ -33,10 +59,12 @@
 				</div>	
 	    	</div>
 	    	<div id="service_main" style="position:relative; height:1050px; border:2px solid lightgray; margin-top:10px;">
-		    	<div id="filter_section" align="right" style="position:relative; width:450px; height:20px; border:2px solid lightgray; margin:10px;">
-<!-- 		    		클릭 시 js 통해 해당 영역으로 스크롤 이동 -->
-		    		<h6 style="margin:0px;">적금진행중 | 적금완료 | 여행중 | 여행완료</h6>
-		    	</div>
+		    	<div class="topnav">
+					<a href="" class="active">적금 진행중</a>
+					<a href="">적금 완료</a>
+					<a href="">여행중</a>
+					<a href="">여행 완료</a>
+				</div>
 		    	<div id="list_section" style="position:relative; width:450px; height:985px; border:2px solid lightgray; margin:10px;">
 			    	<div id="new_field" align="right" style="height:50px; border:2px solid lightgray; margin:5px;">
 			    		<button type="button" style="margin:10px; height:30px; width:100px;">그룹 생성하기</button>
