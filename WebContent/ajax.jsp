@@ -98,29 +98,51 @@ ul,li{
 	text-align:center;
 	padding: 0 auto;
 }
-.progressTag {
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-        width: 60%;
-        height: 30px;
-        border-radius: 7px;
-        color: #27b2a5;
-      }
-      progress::-webkit-progress-bar {
-        background-color: grey;
-        border-radius: 8px;
-      }
-      progress::-webkit-progress-value {
-        background-color: #27b2a5;
-        border-radius: 8px;
-      }
-      progress::-moz-progress-bar {
-        background-color: grey;
-        border-radius: 8px;
-      }
-      
-      
+
+
+.progress{
+
+	width:80%;
+    height: 20px;
+    margin-top:50px;
+    background: #27b2a5;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    overflow: visible;
+    position: relative;
+    
+}
+.progress .progress-bar{
+    height: 20px;
+    background-color:red;
+    border-radius: 15px;
+    box-shadow: none;
+    position: relative;
+    animation: animate-positive 2s;
+}
+.progress .progress-bar:after{
+
+    display:block;
+    background: url(airplane.png);
+    background-size: 80px 80px;
+    width: 80px; 
+    height: 80px;
+    position: absolute;
+    top:-15px;
+    right: -15px;
+    content:"";
+}
+
+
+
+@-webkit-keyframes animate-positive{
+    0% { width: 0; }
+}
+@keyframes animate-positive{
+    0% { width: 0; }
+}
+
+
 .usercontent2{
 	max-width:100%;
 	margin: 10px auto;
@@ -168,8 +190,26 @@ ul,li{
 	text-align:center;
 	vertical-align: middle;
 }
-</style>
 
+
+</style>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js">
+$(document).ready(function(){
+    $('.progress-value > span').each(function(){
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        },{
+            duration: 1500,
+            easing: 'swing',
+            step: function (now){
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
+});
+
+</script>
+ 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 </head>
 <script>
@@ -177,8 +217,16 @@ ul,li{
 function addUser(username,age,cellphone){
 	
 	$("#"+username).remove();
-	$('#membergroup > tbody').append('<tr><td>'+username+'</td><td>'+age+'</td><td>'+cellphone+'</td></tr>');
+	$('#membergroup > tbody').append('<tr id="'+username+'" class="trrow"><td>'+username+'</td><td>'+age+'</td><td>'+cellphone+'</td><td><input type="button" value="삭제하기" onclick="delUser(\''+username+'\','+age+',\''+cellphone+'\');"></td></tr>');
 }
+
+function delUser(username,age,cellphone){
+	
+	$("#"+username).remove();
+	$('#usergroup > tbody').append('<tr id="'+username+'" class="trrow"><td>'+username+'</td><td>'+age+'</td><td>'+cellphone+'</td><td><input type="button" value="추가하기" onclick="addUser(\''+username+'\','+age+',\''+cellphone+'\');"></td></tr>');
+}
+
+
 </script>
 <body>
 
@@ -191,7 +239,20 @@ function addUser(username,age,cellphone){
 		<h1>그룹 메인 사진 및 그룹 명칭</h1>
 		
 		<div id="bar-div">
-			<progress class="progressTag" value="50" max="100"></progress>	
+		
+			<h3 class="progress-title">그룹 달성 현황</h3>
+            <!-- <div class="progress">
+                <div class="progress-bar" style="width:65%;">
+                    <span class="progress-icon fa fa-globe"></span>
+                    <div class="progress-value"><span><img src="airplane.png" style="width:50px;height:50px;"></span></div>
+                </div>
+            </div> -->
+                
+                
+           	<div class="progress">
+                <div class="progress-bar" style="width:0%;"></div>
+            </div>
+            
 		</div>
 	
 	</div>
@@ -215,7 +276,8 @@ function addUser(username,age,cellphone){
 					<tr>
 						<th style="width:20%" class="thead">이름</th>
 						<th style="width:30%" class="thead">나이</th>
-						<th style="width:20%" class="thead">핸드폰번호</th>
+						<th style="width:30%" class="thead">핸드폰번호</th>
+						<th style="width:20%" class="thead">삭제</th>
 					</tr>
 				</thead>
 			
@@ -228,7 +290,7 @@ function addUser(username,age,cellphone){
 		
 		<div class="usercontent2">
 			<div class="usercontentheader">
-				상세분석
+				멤버 리스트 현황
 			</div>
 			<table id="usergroup" class="detailtablelist">
 				<thead>
