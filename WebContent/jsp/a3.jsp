@@ -291,6 +291,19 @@ ul,li{
     0%{ width: 0; }
 }
 
+
+		.smallbtn{
+			width:100px;
+			background:#1AAB8A;
+			color:#fff;
+			border:none;
+		}
+		.smallbtn:hover{
+			background:#fff;
+			color:#1AAB8A;
+			border:none;
+		}
+
 </style>
 <script>
 function showPopup(){
@@ -340,7 +353,7 @@ function showPopup(){
 	
 			<!-- 100%달성시 button 노출 -->
 		    <div class="userdiv-button">
-		        <input type="button" value="REWARD">
+		        <input type="button" class="smallbtn" value="REWARD">
 		        <span id="dd"></span>
 		    </div>
 		    </div>
@@ -362,7 +375,7 @@ function showPopup(){
 			</div>
 			
 		    <div class="userdiv-button">
-		        <input type="button" value="REWARD" onclick="showPopup()">
+		        <input type="button" class="smallbtn" value="REWARD" onclick="showPopup()">
 		    </div>
 		    </div>
 		</div>
@@ -384,7 +397,7 @@ function showPopup(){
 			</div>
 			
 		    <div class="userdiv-button">
-		        <input type="button" value="REWARD">
+		        <input type="button" class="smallbtn" value="REWARD">
 		    </div>
 		    </div>
 		</div>

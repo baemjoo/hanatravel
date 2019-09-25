@@ -235,6 +235,55 @@ ul,li{
     text-align:center;
 }
 
+button{
+		  background:#1AAB8A;
+		  color:#fff;
+		  border:none;
+		  position:relative;
+		  height:80%;
+		  font-size:1.6em;
+		  padding:0 2em;
+		  cursor:pointer;
+		  transition:800ms ease all;
+		  outline:none;
+		}
+		button:hover{
+		  background:#fff;
+		  color:#1AAB8A;
+		}
+		button:before,button:after{
+		  content:'';
+		  position:absolute;
+		  top:0;
+		  right:0;
+		  height:8%;
+		  width:0;
+		  background: #1AAB8A;
+		  transition:400ms ease all;
+		}
+		button:after{
+		  right:inherit;
+		  top:inherit;
+		  left:0;
+		  bottom:0;
+		}
+		button:hover:before,button:hover:after{
+		  width:100%;
+		  transition:800ms ease all;
+		}
+		
+		.smallbtn{
+			width:150px;
+			background:#1AAB8A;
+			color:#fff;
+			border:none;
+		}
+		.smallbtn:hover{
+			background:#fff;
+			color:#1AAB8A;
+			border:none;
+		}
+
 </style>
 
 <!-- datepicker -->
@@ -248,13 +297,13 @@ ul,li{
 function addUser(username,age,cellphone){
 	
 	$("#"+username).remove();
-	$('#membergroup > tbody').append('<tr id="'+username+'" class="trrow"><td>'+username+'</td><td>'+age+'</td><td>'+cellphone+'</td><td><input type="button" value="삭제하기" onclick="delUser(\''+username+'\','+age+',\''+cellphone+'\');"></td></tr>');
+	$('#membergroup > tbody').append('<tr id="'+username+'" class="trrow"><td>'+username+'</td><td>'+age+'</td><td>'+cellphone+'</td><td><input type="button" class="smallbtn" value="삭제하기" onclick="delUser(\''+username+'\','+age+',\''+cellphone+'\');"></td></tr>');
 }
 
 function delUser(username,age,cellphone){
 	
 	$("#"+username).remove();
-	$('#usergroup > tbody').append('<tr id="'+username+'" class="trrow"><td>'+username+'</td><td>'+age+'</td><td>'+cellphone+'</td><td><input type="button" value="추가하기" onclick="addUser(\''+username+'\','+age+',\''+cellphone+'\');"></td></tr>');
+	$('#usergroup > tbody').append('<tr id="'+username+'" class="trrow"><td>'+username+'</td><td>'+age+'</td><td>'+cellphone+'</td><td><input type="button" class="smallbtn" value="추가하기" onclick="addUser(\''+username+'\','+age+',\''+cellphone+'\');"></td></tr>');
 }
 
 
@@ -372,7 +421,7 @@ function makegroup(){
 			
 			<div class="layout_travelconditions">
 				<label> 
-					<input type="button" id="resultBtn" style="width:150px;height:30px;" value="예상 금액 산출하기" onclick="resultBtnclick()"> 
+					<button type="button" id="resultBtn" onclick="resultBtnclick()">예상 금액 산출하기</button> 
 				</label>
 			</div>
 			
@@ -468,21 +517,21 @@ function makegroup(){
 							<td>김하나</td>
 							<td>24</td>
 							<td>XXX-XXXX-XXX1</td>
-							<td><input type="button" value="추가하기" onclick="addUser('김하나','24','XXX-XXXX-XXX1')"></td>
+							<td><input type="button" class="smallbtn" value="추가하기" onclick="addUser('김하나','24','XXX-XXXX-XXX1')"></td>
 						</tr>
 						
 						<tr id="하금티" class="trrow">
 							<td>하금티</td>
 							<td>25</td>
 							<td>XXX-XXXX-XXX2</td>
-							<td><input type="button" value="추가하기" onclick="addUser('하금티','25','XXX-XXXX-XXX2')"></td>
+							<td><input type="button" class="smallbtn" value="추가하기" onclick="addUser('하금티','25','XXX-XXXX-XXX2')"></td>
 						</tr>
 						
 						<tr id="윤티아" class="trrow">
 							<td>윤티아</td>
 							<td>26</td>
 							<td>XXX-XXXX-XXX3</td>
-							<td><input type="button" value="추가하기" onclick="addUser('윤티아','26','XXX-XXXX-XXX3')"></td>
+							<td><input type="button" class="smallbtn" value="추가하기" onclick="addUser('윤티아','26','XXX-XXXX-XXX3')"></td>
 						</tr>
 						
 					</tbody>
@@ -491,7 +540,7 @@ function makegroup(){
 			
 			
 			<div style="margin-top:20px; text-align:center;">
-				<input type="button" value="그룹생성" onclick="makegroup()">
+				<button type="button" onclick="makegroup()">그룹생성</button>
 			</div>
 			
 		

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>여행HANA</title>
 	<%
 //		세션으로부터 아이디 및 이름을 받아보자!
 // 		String userId = (String)session.getAttribute("sessionId");					//아이디
@@ -39,6 +39,43 @@
 		.topnav a.active {
 		  border-bottom: 3px solid #27b2a5;
 		}	
+		
+		button{
+		  background:#1AAB8A;
+		  color:#fff;
+		  border:none;
+		  position:relative;
+		  height:80%;
+		  font-size:1.6em;
+		  padding:0 2em;
+		  cursor:pointer;
+		  transition:800ms ease all;
+		  outline:none;
+		}
+		button:hover{
+		  background:#fff;
+		  color:#1AAB8A;
+		}
+		button:before,button:after{
+		  content:'';
+		  position:absolute;
+		  top:0;
+		  right:0;
+		  height:8%;
+		  width:0;
+		  background: #1AAB8A;
+		  transition:400ms ease all;
+		}
+		button:after{
+		  right:inherit;
+		  top:inherit;
+		  left:0;
+		  bottom:0;
+		}
+		button:hover:before,button:hover:after{
+		  width:100%;
+		  transition:800ms ease all;
+		}
 	</style>
 </head>
 
@@ -73,7 +110,7 @@ function makegroup(){
 				</div>
 		    	<div id="list_section" style="position:relative; width:945px; height:835px; border:2px solid lightgray; margin:10px; float: left;">
 			    	<div id="new_field" align="right" style="height:50px; border:2px solid lightgray; margin:5px;">
-			    		<button type="button" style="margin:10px; height:30px; width:100px;" onclick="makegroup()">그룹 생성하기</button>
+			    		<button type="button" onclick="makegroup()">그룹 생성하기</button>
 			    	</div>
 			    	<div id="group_field" style="height:700px; border:2px solid lightgray; margin:5px;">
 <!-- 			    		그룹별로 클릭 시 그룹 상세 내역 접근 필요 -->
