@@ -204,10 +204,11 @@ ul,li{
 			<table class="detailtablelist">
 				<thead>
 					<tr>
-						<th style="width:20%" class="thead">날짜</th>
+						<th style="width:15%" class="thead">날짜</th>
 						<th style="width:30%" class="thead">입출금내역</th>
 						<th style="width:20%" class="thead">입출금액</th>
 						<th style="width:20%" class="thead">잔액</th>
+						<th style="width:15%" class="thead">범주</th>
 					</tr>
 				</thead>
 			
@@ -220,6 +221,7 @@ ul,li{
 						<td>비행기 예매</td>
 						<td>360,000</td>
 						<td>672,432</td>
+						<td>교통비</td>
 					</tr>
 					
 					<tr class="trrow">
@@ -227,6 +229,7 @@ ul,li{
 						<td>A 게스트하우스</td>
 						<td>100,000</td>
 						<td>572,432</td>
+						<td>숙박비</td>
 					</tr>
 					
 					<tr class="trrow">
@@ -234,6 +237,7 @@ ul,li{
 						<td>렌터카 대여</td>
 						<td>150,000</td>
 						<td>422,432</td>
+						<td>교통비</td>
 					</tr>
 					
 					<tr class="trrow">
@@ -241,6 +245,7 @@ ul,li{
 						<td>오설록</td>
 						<td>24,500</td>
 						<td>397,932</td>
+						<td>식비</td>
 					</tr>
 					
 					<tr class="trrow">
@@ -248,6 +253,7 @@ ul,li{
 						<td>제주몸국</td>
 						<td>40,000</td>
 						<td>357,932</td>
+						<td>식비</td>
 					</tr>
 					
 					<tr class="trrow">
@@ -255,9 +261,11 @@ ul,li{
 						<td>비자림</td>
 						<td>3,000</td>
 						<td>354,932</td>
+						<td>관광비</td>
 					</tr>
 					
 					<tr class="trrow">
+						<td>...</td>
 						<td>...</td>
 						<td>...</td>
 						<td>...</td>
@@ -272,7 +280,7 @@ ul,li{
 				상세분석
 			</div>
 			<div class="usercontentheader">
-				구글 차트 API 사용 예정
+				<img src="image/chart.PNG" width=80%></img>
 			</div>
 			
 		</div>
