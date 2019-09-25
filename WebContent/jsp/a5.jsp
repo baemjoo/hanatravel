@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>여행HANA</title>
-<link rel="stylesheet" href="${ pageContext.request.contextPath }/resources/css/basic.css">
+
 <style>
 
 
@@ -31,7 +31,6 @@ ul,li{
 #header{
 	text-align:center;
 	max-width:100%;
-	padding: 20px;
     margin-bottom: 20px;
     border: 1px solid #bcbcbc;
 }
@@ -180,9 +179,11 @@ ul,li{
 
 <div id="container">
 
-	<!-- <header> -->
-		<jsp:include page = "groupheader.jsp" flush="true"></jsp:include>
-	<!-- </header> -->
+	<div id="header">
+			<div class="groupdiv">   
+				<img src="../image/service_introduction.png" style="max-width:100%; border:2px solid lightgray;"/>
+			</div>	
+	</div>
 	
 	<div class="topnav">
 	  <a href="a3.jsp" >그룹 적금 현황</a>
