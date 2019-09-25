@@ -92,12 +92,12 @@ function makegroup(){
 							<h4 class="group_text2" align="right" style="margin:0 30px 0 0;">여행 일정 : 20.12.21 ~ 21.01.11 (LA 외 2개 도시)</h4>
 							<h4 class="group_text3" align="right" style="margin:0 30px 0 0;">참여인원 04 | 목표액 30,120,000원 (각 7,530,000원) | 진행현황 10% (3,012,000원)</h4>
 			    		</div>
-			    		<div style="height:130px; background-color:lightblue; border:2px solid lightgray; margin:5px;">
+			    		<div style="height:130px; background-color:coral; border:2px solid lightgray; margin:5px;">
 							<h2 class="group_text1" style="margin-left:30px;">하금티와 더블 커플 여행</h2>
 							<h4 class="group_text2" align="right" style="margin:0 30px 0 0;">여행 일정 : 19.08.15 ~ 19.08.18 (푸켓/태국)</h4>
 							<h4 class="group_text3" align="right" style="margin:0 30px 0 0;">참여인원 04 | 목표액 3,800,000원 (각 950,000원) | 진행현황 40% (1,520,000원)</h4>
 			    		</div>
-			    		<div style="height:130px; background-color:lightblue; border:2px solid lightgray; margin:5px;">
+			    		<div style="height:130px; background-color:lightgray; border:2px solid lightgray; margin:5px;">
 							<h2 class="group_text1" style="margin-left:30px;">박금융과 제주도 여행</h2>
 							<h4 class="group_text2" align="right" style="margin:0 30px 0 0;">여행 일정 : 17.05.07 ~ 17.05.11 (제주도/한국)</h4>
 							<h4 class="group_text3" align="right" style="margin:0 30px 0 0;">참여인원 02 | 목표액 1,040,000원 (각 520,000원) | 진행현황 100% (1,040,000원)</h4>
