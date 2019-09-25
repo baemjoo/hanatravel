@@ -6,7 +6,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>여행HANA</title>
-<link rel="stylesheet" href="${ pageContext.request.contextPath }/resources/css/basic.css">
 <style>
 
 
@@ -144,11 +143,12 @@ ul,li{
 
     display:inline;
     background: url(../image/airplane.png);
-    background-size: 80px 80px;
-    width: 80px; 
-    height: 80px;
+    background-size: 200px 200px;
+    background-repeat:no-repeat;
+    width: 200px; 
+    height: 200px;
     position: absolute;
-    top:-15px;
+    top:-90px;
     right: -15px;
     content:"";
 }
@@ -168,6 +168,7 @@ ul,li{
 	margin:3%;
 	display:inline-block;
 	text-align:center;
+	bottom:0px;
 }
 
 .groupdiv-progress{
@@ -304,7 +305,13 @@ function showPopup(){
 	<div id="header">
 		<h1>금융이랑 하금티랑 자카르타 여행</h1>
 		
-			<div class="groupdiv">   
+			<div class="groupdiv">
+			
+			 	<div class="groupdiv-result">
+	            	<div>
+		            	<img src="../image/korea.jpg" style="width:60px;height:auto; margin-top:20px;">
+	            	</div>
+	            </div>   
 				<div class="groupdiv-progress">
 		           	<div class="groupprogress">
 		                <div class="progress-bar" style="width:80%; "></div>
@@ -312,7 +319,7 @@ function showPopup(){
 	            </div>
 	            <div class="groupdiv-result">
 	            	<div>
-		            	<img src="../image/airplane.png" style="width:80px;height:80px;">
+		            	<img src="../image/indonesia.jpg" style="width:60px;height:auto;margin-top:20px;">
 	            	</div>
 	            </div>
 			</div>	
