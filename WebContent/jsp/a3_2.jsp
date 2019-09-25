@@ -6,7 +6,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>여행HANA</title>
-<link rel="stylesheet" href="${ pageContext.request.contextPath }/resources/css/basic.css">
 <style>
 
 
@@ -181,19 +180,20 @@ ul,li{
 	height:30px;
 	float:left;
 }
+
 .userdiv{
 	width:100%;
 	height:50px;
-	display:inline-block;
+	margin:1%;
+	display:flex;
 }
 .userdiv-progress{
-	margin:2%;
 	width:60%;	
 	height:30px;
 	float:left;
 }
 .userdiv-button{
-	width:10%;	
+	width:15%;	
 	height:50px;
 	float:left;
 }
@@ -289,6 +289,13 @@ ul,li{
     0%{ width: 0; }
 }
 
+element.style {
+    /* overflow: hidden; */
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
 
 		.smallbtn{
 			width:100%;
@@ -303,12 +310,7 @@ ul,li{
 		}
 
 </style>
-<script>
-function showPopup(){
-	openWin = window.open("a5test_2.jsp",
-            "childForm", "width=1000px, height=500px, resizable = no, scrollbars = no");    
-}
-</script>
+
 </head>
 
 <body>
@@ -398,26 +400,12 @@ function showPopup(){
 				     </div>
 		        </div>	
 			</div>
-			
-		    <div class="userdiv-button">
-		        <input type="button" class="smallbtn" value="REWARD">
-		    </div>
 		    </div>
 		</div>
 		
 	</div>
 </div>
-<!-- The Modal -->
-<div id="myModal" class="modal">
 
-  <!-- Modal content -->
-  <div class="modal-content">
-	<div id="content">
-		fasdf
-	</div>
-	<button onclick="myFunction()">Try it</button>
-  </div>
-</div>
 
 <!-- <footer> -->
 	<jsp:include page = "footer.jsp" flush="true"></jsp:include>
