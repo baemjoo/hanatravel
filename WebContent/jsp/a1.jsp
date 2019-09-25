@@ -14,6 +14,32 @@
 // 		String userSavingOk = (String)session.getAttribute("sessionSavingOk");		//적금성공
 // 		String userSavingFail = (String)session.getAttribute("sessionSavingFail");	//적금실패
 	%>
+	
+	<style type="text/css">
+		.topnav {
+		  background-color: #fff;
+		  overflow: hidden;
+		}
+		
+		.topnav a {
+		  float: left;
+		  display: block;
+		  color: #000;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  font-size: 17px;
+		  border-bottom: 3px solid transparent;
+		}
+		
+		.topnav a:hover {
+		  border-bottom: 3px solid #27b2a5;
+		}
+		
+		.topnav a.active {
+		  border-bottom: 3px solid #27b2a5;
+		}	
+	</style>
 </head>
 
 <script>
@@ -34,18 +60,17 @@ function makegroup(){
 	    	</div>
 	    	<div id="service_summary">
 				<div id="service_text" style="position:relative; height:150px; border:2px solid lightgray; margin-top:10px;">
-					<h1 class="summary_text1" style="margin-left:30px;">OOO님의 여행적금 참여내역</h1>
-					<h3 class="summary_text2" align="right" style="margin-right:30px;">그룹가입현황 00 | 이번달 적금예정내역 00 (적금 성공 00 | 실패 00)</h3>
+					<h1 class="summary_text1" style="margin-left:30px;">김하나님의 여행적금 참여내역</h1>
+					<h3 class="summary_text2" align="right" style="margin-right:30px;">그룹가입현황 04 | 이번달 적금예정내역 03 (적금 성공 01 | 실패 01)</h3>
 				</div>	
 	    	</div>
 	    	<div id="service_main" style="position:relative; height:860px; border:2px solid lightgray; margin-top:10px;">
-		    	<div id="filter_section" style="position:relative; width:200px; height:200px; border:2px solid lightgray; margin:10px; float: left;">
-<!-- 		    		클릭 시 js 통해 해당 영역으로 스크롤 이동 -->
-		    		<h3 style="margin-left:15px; color:#12a9a0;">적금진행중</h3>
-		    		<h3 style="margin-left:15px; color:gray;">적금완료</h3>
-		    		<h3 style="margin-left:15px; color:gray;">여행중</h3>
-		    		<h3 style="margin-left:15px; color:gray;">여행완료 </h3>
-		    	</div>
+		    	<div class="topnav">
+					<a href="" class="active">적금 진행중</a>
+					<a href="">적금 완료</a>
+					<a href="">여행중</a>
+					<a href="">여행 완료</a>
+				</div>
 		    	<div id="list_section" style="position:relative; width:945px; height:835px; border:2px solid lightgray; margin:10px; float: left;">
 			    	<div id="new_field" align="right" style="height:50px; border:2px solid lightgray; margin:5px;">
 			    		<button type="button" style="margin:10px; height:30px; width:100px;" onclick="makegroup()">그룹 생성하기</button>
@@ -53,29 +78,29 @@ function makegroup(){
 			    	<div id="group_field" style="height:700px; border:2px solid lightgray; margin:5px;">
 <!-- 			    		그룹별로 클릭 시 그룹 상세 내역 접근 필요 -->
 			    		<div style="height:130px; background-color:lightblue; border:2px solid lightgray; margin:5px;">
-							<h2 class="group_text1" style="margin-left:30px;">제목 영역</h2>
-							<h4 class="group_text2" align="right" style="margin:0 30px 0 0;">여행 일정 : yy.mm.dd ~ yy.mm.dd (OOOOO 외 n개 도시)</h4>
-							<h4 class="group_text3" align="right" style="margin:0 30px 0 0;">참여인원 nn | 목표액 000,000원 (각 000,000원) | 진행현황 nn% (000,000원)</h4>
+							<h2 class="group_text1" style="margin-left:30px;">박금융과 자카르타 여행</h2>
+							<h4 class="group_text2" align="right" style="margin:0 30px 0 0;">여행 일정: 19.11.01 ~ 19.11.05 (자카르타/인도네시아)</h4>
+							<h4 class="group_text3" align="right" style="margin:0 30px 0 0;">참여인원 02 | 목표액 880,000원 (각 440,000원) | 진행현황 90% (792,000원)</h4>
 			    		</div>
 			    		<div style="height:130px; background-color:lightblue; border:2px solid lightgray; margin:5px;">
-							<h2 class="group_text1" style="margin-left:30px;">제목 영역</h2>
-							<h4 class="group_text2" align="right" style="margin:0 30px 0 0;">여행 일정 : yy.mm.dd ~ yy.mm.dd (OOOOO 외 n개 도시)</h4>
-							<h4 class="group_text3" align="right" style="margin:0 30px 0 0;">참여인원 nn | 목표액 000,000원 (각 000,000원) | 진행현황 nn% (000,000원)</h4>
+							<h2 class="group_text1" style="margin-left:30px;">가족 여행</h2>
+							<h4 class="group_text2" align="right" style="margin:0 30px 0 0;">여행 일정 : 20.02.09 ~ 20.02.16 (벤쿠버/캐나다)</h4>
+							<h4 class="group_text3" align="right" style="margin:0 30px 0 0;">참여인원 03 | 목표액 8,400,000원 (각 2,800,000원) | 진행현황 45% (3,780,000원)</h4>
 			    		</div>
 			    		<div style="height:130px; background-color:lightblue; border:2px solid lightgray; margin:5px;">
-							<h2 class="group_text1" style="margin-left:30px;">제목 영역</h2>
-							<h4 class="group_text2" align="right" style="margin:0 30px 0 0;">여행 일정 : yy.mm.dd ~ yy.mm.dd (OOOOO 외 n개 도시)</h4>
-							<h4 class="group_text3" align="right" style="margin:0 30px 0 0;">참여인원 nn | 목표액 000,000원 (각 000,000원) | 진행현황 nn% (000,000원)</h4>
+							<h2 class="group_text1" style="margin-left:30px;">하나고 친구들과 미국 서부 일주</h2>
+							<h4 class="group_text2" align="right" style="margin:0 30px 0 0;">여행 일정 : 20.12.21 ~ 21.01.11 (LA 외 2개 도시)</h4>
+							<h4 class="group_text3" align="right" style="margin:0 30px 0 0;">참여인원 04 | 목표액 30,120,000원 (각 7,530,000원) | 진행현황 10% (3,012,000원)</h4>
 			    		</div>
 			    		<div style="height:130px; background-color:lightblue; border:2px solid lightgray; margin:5px;">
-							<h2 class="group_text1" style="margin-left:30px;">제목 영역</h2>
-							<h4 class="group_text2" align="right" style="margin:0 30px 0 0;">여행 일정 : yy.mm.dd ~ yy.mm.dd (OOOOO 외 n개 도시)</h4>
-							<h4 class="group_text3" align="right" style="margin:0 30px 0 0;">참여인원 nn | 목표액 000,000원 (각 000,000원) | 진행현황 nn% (000,000원)</h4>
+							<h2 class="group_text1" style="margin-left:30px;">하금티와 더블 커플 여행</h2>
+							<h4 class="group_text2" align="right" style="margin:0 30px 0 0;">여행 일정 : 19.08.15 ~ 19.08.18 (푸켓/태국)</h4>
+							<h4 class="group_text3" align="right" style="margin:0 30px 0 0;">참여인원 04 | 목표액 3,800,000원 (각 950,000원) | 진행현황 40% (1,520,000원)</h4>
 			    		</div>
 			    		<div style="height:130px; background-color:lightblue; border:2px solid lightgray; margin:5px;">
-							<h2 class="group_text1" style="margin-left:30px;">제목 영역</h2>
-							<h4 class="group_text2" align="right" style="margin:0 30px 0 0;">여행 일정 : yy.mm.dd ~ yy.mm.dd (OOOOO 외 n개 도시)</h4>
-							<h4 class="group_text3" align="right" style="margin:0 30px 0 0;">참여인원 nn | 목표액 000,000원 (각 000,000원) | 진행현황 nn% (000,000원)</h4>
+							<h2 class="group_text1" style="margin-left:30px;">박금융과 제주도 여행</h2>
+							<h4 class="group_text2" align="right" style="margin:0 30px 0 0;">여행 일정 : 17.05.07 ~ 17.05.11 (제주도/한국)</h4>
+							<h4 class="group_text3" align="right" style="margin:0 30px 0 0;">참여인원 02 | 목표액 1,040,000원 (각 520,000원) | 진행현황 100% (1,040,000원)</h4>
 			    		</div>
 			    	</div>
 			    	<div id="pagenation_field" align="center" style="height:50px; border:2px solid lightgray; margin:5px;">
