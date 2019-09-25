@@ -31,6 +31,7 @@ ul,li{
 #header{
 	text-align:center;
 	max-width:100%;
+	min-height:50px;
 	padding: 20px;
     margin-bottom: 20px;
     border: 1px solid #bcbcbc;
@@ -117,12 +118,12 @@ ul,li{
 }
 
 .groupprogress{
-	width:80%;
+	width:100%;
     height: 20px;
-    margin-top:50px;
     background: #27b2a5;
     border-radius: 15px;
-    margin-bottom: 30px;
+    margin-top:30px;
+    
     overflow: visible; 
     position: relative; 
 
@@ -161,6 +162,25 @@ ul,li{
     0% { width: 0; }
 }
 
+.groupdiv{
+	width:90%;
+	min-height:50px;
+	margin:3%;
+	display:inline-block;
+	text-align:center;
+}
+
+.groupdiv-progress{
+	width:80%;	
+	height:30px;
+	float:left;
+}
+
+.groupdiv-result{
+	width:10%;	
+	height:30px;
+	float:left;
+}
 .userdiv{
 	width:90%;
 	height:50px;
@@ -171,13 +191,13 @@ ul,li{
 	margin:2%;
 	width:80%;	
 	height:30px;
-	float:left
+	float:left;
 }
 .userdiv-button{
 	margin:2%;
 	width:10%;	
 	height:30px;
-	float:left
+	float:left;
 }
 .progress-title{
     font-size: 18px;
@@ -284,11 +304,16 @@ ul,li{
 	<div id="header">
 		<h1>그룹 메인 사진 및 그룹 명칭</h1>
 		
-			<div id="bar-div">   
-				<div class="prog_div">
+			<div class="groupdiv">   
+				<div class="groupdiv-progress">
 		           	<div class="groupprogress">
 		                <div class="progress-bar" style="width:80%; "></div>
 		            </div>
+	            </div>
+	            <div class="groupdiv-result">
+	            	<div>
+		            	<img src="airplane.png" style="width:80px;height:80px;">
+	            	</div>
 	            </div>
 			</div>	
 	</div>
