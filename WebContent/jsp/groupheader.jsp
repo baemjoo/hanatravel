@@ -143,7 +143,7 @@ ul,li{
 .groupprogress .progress-bar:after{
 
     display:inline;
-    background: url(airplane.png);
+    background: url(../image/airplane.png);
     background-size: 80px 80px;
     width: 80px; 
     height: 80px;
@@ -301,12 +301,6 @@ function showPopup(){
 </head>
 
 <body>
-
-<%-- <jsp:include page="/WEB-INF/jsp/include/header.jsp"/> --%>
-
-
-<div id="container">
-
 	<div id="header">
 		<h1>그룹 메인 사진 및 그룹 명칭</h1>
 		
@@ -318,119 +312,10 @@ function showPopup(){
 	            </div>
 	            <div class="groupdiv-result">
 	            	<div>
-		            	<img src="airplane.png" style="width:80px;height:80px;">
+		            	<img src="../image/airplane.png" style="width:80px;height:80px;">
 	            	</div>
 	            </div>
 			</div>	
 	</div>
-	
-	<div class="topnav">
-	  <a href="part4_1.jsp" class="active">그룹 적금 현황</a>
-	  <a href="part4_2.jsp" >나의 적금 현황</a>
-	  <a href="part4_3.jsp">여행 경비 사용 현황</a>
-	  <a href="part4_4.jsp">여행 정보</a>
-	  <a href="part4_5.jsp">그룹 관리</a>
-	</div>
-
-
-	<div id="content">
-	
-		<div class="usercontent">
-			<div class="contentheader">
-				<h4>1등 : XXX님 (nn원)</h4>
-			</div>
-			
-			<div class="userdiv">
-			<div class="userdiv-progress">
-		        <div class="userprogress blue">
-				    <div class="userprogress-bar" style="width:100%; height:20px; background-color:#1f75c4;">
-				    	<span class="progress-icon fa fa-globe"></span>
-				    	<div class="progress-value"><span>100</span>%</div>
-				     </div>
-		        </div>	
-			</div>
-	
-			<!-- 100%달성시 button 노출 -->
-		    <div class="userdiv-button">
-		        <input type="button" value="REWARD">
-		        <span id="dd"></span>
-		    </div>
-		    </div>
-		</div>
-		
-		<div class="usercontent">
-			<div class="contentheader">
-				<h4>2등 : XXX님 (nn원)</h4>
-			</div>
-			
-			<div class="userdiv">
-			<div class="userdiv-progress">
-		        <div class="userprogress orange">
-				    <div class="userprogress-bar" style="width:80%; height:20px; background-color:#fe3b3b;">
-				    	<span class="progress-icon fa fa-globe"></span>
-				    	<div class="progress-value"><span>80</span>%</div>
-				     </div>
-		        </div>	
-			</div>
-			
-		    <div class="userdiv-button">
-		        <input type="button" value="REWARD" onclick="showPopup()">
-		    </div>
-		    </div>
-		</div>
-		
-		
-		<div class="usercontent">
-			<div class="contentheader">
-				<h4>3등 : XXX님 (nn원)</h4>
-			</div>
-			
-			<div class="userdiv">
-			<div class="userdiv-progress">
-		        <div class="userprogress green">
-				    <div class="userprogress-bar" style="width:65%; height:20px; background-color:#53aa2c;">
-				    	<span class="progress-icon fa fa-globe"></span>
-				    	<div class="progress-value"><span>65</span>%</div>
-				     </div>
-		        </div>	
-			</div>
-			
-		    <div class="userdiv-button">
-		        <input type="button" value="REWARD">
-		    </div>
-		    </div>
-		</div>
-		
-		
-		
-		<div class="usercontent">
-			<div class="contentheader">
-				<h4>4등 : XXX (nn원)</h4>
-			</div>
-			
-			<div class="userdiv">
-			<div class="userdiv-progress">
-		        <div class="userprogress purple">
-				    <div class="userprogress-bar" style="width:15%; height:20px; background-color:#66406f;">
-				    	<span class="progress-icon fa fa-globe"></span>
-				    	<div class="progress-value"><span>15</span>%</div>
-				     </div>
-		        </div>	
-			</div>
-			
-		    <div class="userdiv-button">
-		        <input type="button" value="REWARD">
-		    </div>
-		    </div>
-		</div>
-		
-		
-	</div>
-</div>
-<a href="CreateTravelGroup.jsp">페이지1</a>
-<a href="GetAgreements.jsp">페이지2</a>
-<a href="InputTravelConditions.jsp">페이지3</a>
-<%-- <jsp:include page="/WEB-INF/jsp/include/footer.jsp"/> --%>
-
 </body>
 </html>

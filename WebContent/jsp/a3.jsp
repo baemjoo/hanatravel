@@ -143,7 +143,7 @@ ul,li{
 .groupprogress .progress-bar:after{
 
     display:inline;
-    background: url(airplane.png);
+    background: url(../image/airplane.png);
     background-size: 80px 80px;
     width: 80px; 
     height: 80px;
@@ -302,34 +302,22 @@ function showPopup(){
 
 <body>
 
-<%-- <jsp:include page="/WEB-INF/jsp/include/header.jsp"/> --%>
-
+<!-- <header> -->
+	<jsp:include page = "header.jsp" flush="true"></jsp:include>
+<!-- </header> -->
 
 <div id="container">
 
-	<div id="header">
-		<h1>그룹 메인 사진 및 그룹 명칭</h1>
-		
-			<div class="groupdiv">   
-				<div class="groupdiv-progress">
-		           	<div class="groupprogress">
-		                <div class="progress-bar" style="width:80%; "></div>
-		            </div>
-	            </div>
-	            <div class="groupdiv-result">
-	            	<div>
-		            	<img src="airplane.png" style="width:80px;height:80px;">
-	            	</div>
-	            </div>
-			</div>	
-	</div>
+	<!-- <header> -->
+		<jsp:include page = "groupheader.jsp" flush="true"></jsp:include>
+	<!-- </header> -->
 	
 	<div class="topnav">
-	  <a href="part4_1.jsp" class="active">그룹 적금 현황</a>
-	  <a href="part4_2.jsp" >나의 적금 현황</a>
-	  <a href="part4_3.jsp">여행 경비 사용 현황</a>
-	  <a href="part4_4.jsp">여행 정보</a>
-	  <a href="part4_5.jsp">그룹 관리</a>
+	  <a href="a3.jsp" class="active">그룹 적금 현황</a>
+	  <a href="a4.jsp" >나의 적금 현황</a>
+	  <a href="a5.jsp">여행 경비 사용 현황</a>
+	  <a href="a6.jsp">여행 정보</a>
+	  <a href="a7.jsp">손님후기</a>
 	</div>
 
 
@@ -427,10 +415,9 @@ function showPopup(){
 		
 	</div>
 </div>
-<a href="CreateTravelGroup.jsp">페이지1</a>
-<a href="GetAgreements.jsp">페이지2</a>
-<a href="InputTravelConditions.jsp">페이지3</a>
-<%-- <jsp:include page="/WEB-INF/jsp/include/footer.jsp"/> --%>
 
+<!-- <footer> -->
+	<jsp:include page = "footer.jsp" flush="true"></jsp:include>
+<!-- </footer> -->
 </body>
 </html>
