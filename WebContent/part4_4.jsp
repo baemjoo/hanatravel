@@ -123,7 +123,7 @@ ul,li{
 .topnav a {
   float: left;
   display: block;
-  color: #27b2a5;
+  color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -169,25 +169,28 @@ ul,li{
 
 
 	<div id="content">
-		<div class="usercontent">
+		<div class="trvelcontent">
 		<ul>
 			<li>전체 적금내역 (nn% | nn원)</li>
 			<li><progress class="progressTag" value="50" max="100"></progress></li>
 		</ul>
 			
 		</div>
-		<div class="usercontent">
-		<ul>
-			<li>1등 : XXX (nn% | nn원)</li>
-			<li><progress class="progressTag" value="50" max="100"></progress></li>
-		</ul>
-		</div>
-		
-		<div class="usercontent">
-		<ul>
-			<li>2등 : XXX (nn% | nn원)</li>
-			<li><progress class="progressTag" value="50" max="100"></progress></li>
-		</ul>
+		<div class="trvelcontent">
+		<table border="1px">
+		<tr>
+		<td><img src="image/travelInfoImage/jaka1.png"></img></td>
+		<td><img src="image/travelInfoImage/jaka2.png"></img></td>
+		<td><img src="image/travelInfoImage/jaka3.png"></img></td>
+		<td><img src="image/travelInfoImage/jaka4.png"></img></td>
+		</tr>
+		<tr>
+		<td><img src="image/travelInfoImage/jaka5.png"></img></td>
+		<td><img src="image/travelInfoImage/jaka6.png"></img></td>
+		<td><img src="image/travelInfoImage/jaka7.png"></img></td>
+		<td><img src="image/travelInfoImage/jaka8.png"></img></td>
+		</tr>
+		</table>
 		</div>
 	</div>
 </div>
