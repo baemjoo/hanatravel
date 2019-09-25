@@ -115,9 +115,9 @@ function makegroup(){
 			    	<div id="group_field" style="height:700px; border:2px solid lightgray; margin:5px;">
 <!-- 			    		그룹별로 클릭 시 그룹 상세 내역 접근 필요 -->
 			    		<div style="height:130px; background-color:lightblue; border:2px solid lightgray; margin:5px;">
-							<h2 class="group_text1" style="margin-left:30px;">박금융과 자카르타 여행</h2>
+							<h2 class="group_text1" style="margin-left:30px;">금융이랑 하금티랑 자카르타 여행</h2>
 							<h4 class="group_text2" align="right" style="margin:0 30px 0 0;">여행 일정: 19.11.01 ~ 19.11.05 (자카르타/인도네시아)</h4>
-							<h4 class="group_text3" align="right" style="margin:0 30px 0 0;">참여인원 02 | 목표액 880,000원 (각 440,000원) | 진행현황 90% (792,000원)</h4>
+							<h4 class="group_text3" align="right" style="margin:0 30px 0 0;">참여인원 03 | 목표액 1,320,000원 (각 440,000원) | 진행현황 90% (1,188,000원)</h4>
 			    		</div>
 			    		<div style="height:130px; background-color:lightblue; border:2px solid lightgray; margin:5px;">
 							<h2 class="group_text1" style="margin-left:30px;">가족 여행</h2>

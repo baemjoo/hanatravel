@@ -338,7 +338,7 @@ function showPopup(){
 	
 		<div class="usercontent">
 			<div class="contentheader">
-				<h4>1등 : XXX님 (nn원)</h4>
+				<h4>1등 : 김하나님 (440,000원)</h4>
 			</div>
 			
 			<div class="userdiv">
@@ -361,15 +361,15 @@ function showPopup(){
 		
 		<div class="usercontent">
 			<div class="contentheader">
-				<h4>2등 : XXX님 (nn원)</h4>
+				<h4>2등 : 하금티님 (440,000원)</h4>
 			</div>
 			
 			<div class="userdiv">
 			<div class="userdiv-progress">
 		        <div class="userprogress orange">
-				    <div class="userprogress-bar" style="width:80%; height:20px; background-color:#fe3b3b;">
+				    <div class="userprogress-bar" style="width:100%; height:20px; background-color:#fe3b3b;">
 				    	<span class="progress-icon fa fa-globe"></span>
-				    	<div class="progress-value"><span>80</span>%</div>
+				    	<div class="progress-value"><span>100</span>%</div>
 				     </div>
 		        </div>	
 			</div>
@@ -383,7 +383,7 @@ function showPopup(){
 		
 		<div class="usercontent">
 			<div class="contentheader">
-				<h4>3등 : XXX님 (nn원)</h4>
+				<h4>3등 : 박금융님 (308,000원)</h4>
 			</div>
 			
 			<div class="userdiv">
@@ -401,30 +401,6 @@ function showPopup(){
 		    </div>
 		    </div>
 		</div>
-		
-		
-		
-		<div class="usercontent">
-			<div class="contentheader">
-				<h4>4등 : XXX (nn원)</h4>
-			</div>
-			
-			<div class="userdiv">
-			<div class="userdiv-progress">
-		        <div class="userprogress purple">
-				    <div class="userprogress-bar" style="width:15%; height:20px; background-color:#66406f;">
-				    	<span class="progress-icon fa fa-globe"></span>
-				    	<div class="progress-value"><span>15</span>%</div>
-				     </div>
-		        </div>	
-			</div>
-			
-		    <div class="userdiv-button">
-		        <input type="button" value="REWARD">
-		    </div>
-		    </div>
-		</div>
-		
 		
 	</div>
 </div>

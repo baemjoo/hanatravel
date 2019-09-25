@@ -513,11 +513,11 @@ function makegroup(){
 					<tbody>
 						
 						<%-- DB 반복 <c:forEach items="" var=""> --%>
-						<tr id="김하나" class="trrow">
-							<td>김하나</td>
+						<tr id="박금융" class="trrow">
+							<td>박금융</td>
 							<td>24</td>
 							<td>XXX-XXXX-XXX1</td>
-							<td><input type="button" class="smallbtn" value="추가하기" onclick="addUser('김하나','24','XXX-XXXX-XXX1')"></td>
+							<td><input type="button" class="smallbtn" value="추가하기" onclick="addUser('박금융','24','XXX-XXXX-XXX1')"></td>
 						</tr>
 						
 						<tr id="하금티" class="trrow">
