@@ -225,7 +225,7 @@ ul,li{
 			<div class="usercontentheader">
 				<h3>김하나 손님의 현재까지 적금 현황</h3>
 				<br>
-				<h6>그룹명: 금융이랑 하금티랑 자카르타 여행</h6>
+				<h6>금융이랑 하금티랑 자카르타 여행</h6>
 			</div>
 			
 			<div id="bar-div">
