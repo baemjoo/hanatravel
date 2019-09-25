@@ -104,12 +104,12 @@
 							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">진행현황 40% (1,497,248원)</h6>
 			    		</div>
 			    		<div style="height:160px; background-color:lightgray; border:2px solid lightgray; margin:5px;">
-							<h2 class="group_text1" style="margin-left:10px;">박금융과 일본 쇼핑 투어</h2>
+							<h2 class="group_text1" style="margin-left:10px;">박금융과 제주도 여행</h2>
 							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 일정: 17.05.07 ~ 17.05.11</h6>
-							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 도시: 오사카(일본)</h6>
+							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 도시: 제주도(한국)</h6>
 							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">참여 인원: 2</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">목표액: 1,832,432원 (각 916,216원)</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">진행현황 100% (1,832,432원)</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">목표액: 1,032,432원 (각 516,216원)</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">진행현황 100% (1,032,432원)</h6>
 			    		</div>
 			    	</div>
 			    	<div id="pagenation_field" align="center" style="height:50px; border:2px solid lightgray; margin:5px;">
