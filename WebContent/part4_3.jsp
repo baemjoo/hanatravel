@@ -208,7 +208,6 @@ ul,li{
 						<th style="width:30%" class="thead">입출금내역</th>
 						<th style="width:20%" class="thead">입출금액</th>
 						<th style="width:20%" class="thead">잔액</th>
-						<th style="width:10%" class="thead">코드</th>
 					</tr>
 				</thead>
 			
@@ -217,29 +216,53 @@ ul,li{
 					
 					<%-- DB 반복 <c:forEach items="" var=""> --%>
 					<tr class="trrow">
-						<td>yyyymmdd</td>
-						<td>xxxxx적금 자동출금</td>
-						<td>nnn,nnn,nnn</td>
-						<td>nnn,nnn,nnn</td>
-						<td>nn</td>
+						<td>17.05.01</td>
+						<td>비행기 예매</td>
+						<td>360,000</td>
+						<td>672,432</td>
 					</tr>
 					
 					<tr class="trrow">
-						<td>yyyymmdd</td>
-						<td>xxxxx적금 자동출금</td>
-						<td>nnn,nnn,nnn</td>
-						<td>nnn,nnn,nnn</td>
-						<td>nn</td>
+						<td>17.05.01</td>
+						<td>A 게스트하우스</td>
+						<td>100,000</td>
+						<td>572,432</td>
 					</tr>
 					
 					<tr class="trrow">
-						<td>yyyymmdd</td>
-						<td>xxxxx적금 자동출금</td>
-						<td>nnn,nnn,nnn</td>
-						<td>nnn,nnn,nnn</td>
-						<td>nn</td>
+						<td>17.05.07</td>
+						<td>렌터카 대여</td>
+						<td>150,000</td>
+						<td>422,432</td>
 					</tr>
 					
+					<tr class="trrow">
+						<td>17.05.07</td>
+						<td>오설록</td>
+						<td>24,500</td>
+						<td>397,932</td>
+					</tr>
+					
+					<tr class="trrow">
+						<td>17.05.07</td>
+						<td>제주몸국</td>
+						<td>40,000</td>
+						<td>357,932</td>
+					</tr>
+					
+					<tr class="trrow">
+						<td>17.05.07</td>
+						<td>제주몸국</td>
+						<td>40,000</td>
+						<td>317,932</td>
+					</tr>
+					
+					<tr class="trrow">
+						<td>...</td>
+						<td>...</td>
+						<td>...</td>
+						<td>...</td>
+					</tr>
 				</tbody>
 			</table>
 		</div>
