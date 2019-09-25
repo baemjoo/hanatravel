@@ -211,58 +211,9 @@ ul,li{
 						<th style="width:15%" class="thead">범주</th>
 					</tr>
 				</thead>
-			
 		
 				<tbody>
 					
-					<%-- DB 반복 <c:forEach items="" var=""> --%>
-					<tr class="trrow">
-						<td>17.05.01</td>
-						<td>비행기 예매</td>
-						<td>360,000</td>
-						<td>672,432</td>
-						<td>교통비</td>
-					</tr>
-					
-					<tr class="trrow">
-						<td>17.05.01</td>
-						<td>A 게스트하우스</td>
-						<td>100,000</td>
-						<td>572,432</td>
-						<td>숙박비</td>
-					</tr>
-					
-					<tr class="trrow">
-						<td>17.05.07</td>
-						<td>렌터카 대여</td>
-						<td>150,000</td>
-						<td>422,432</td>
-						<td>교통비</td>
-					</tr>
-					
-					<tr class="trrow">
-						<td>17.05.07</td>
-						<td>오설록</td>
-						<td>24,500</td>
-						<td>397,932</td>
-						<td>식비</td>
-					</tr>
-					
-					<tr class="trrow">
-						<td>17.05.07</td>
-						<td>제주몸국</td>
-						<td>40,000</td>
-						<td>357,932</td>
-						<td>식비</td>
-					</tr>
-					
-					<tr class="trrow">
-						<td>17.05.08</td>
-						<td>비자림</td>
-						<td>3,000</td>
-						<td>354,932</td>
-						<td>관광비</td>
-					</tr>
 					
 					<tr class="trrow">
 						<td>...</td>
@@ -280,7 +231,7 @@ ul,li{
 				상세분석
 			</div>
 			<div class="usercontentheader">
-				<img src="image/chart.PNG" width=80%></img>
+				<!-- <img src="image/chart.PNG" width=80%></img>  -->
 			</div>
 			
 		</div>
