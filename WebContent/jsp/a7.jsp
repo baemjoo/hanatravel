@@ -218,18 +218,17 @@ ul,li{
 	width:80%;
 	min-height:80px;
 	float:left;
-	font-size:20px;
 }
 
 .addbtn{
-	margin-left:2%;
+	margin:1%;
 	width:17%;
 	height:auto;
 	float:left;
 }
 
 .addfile{
-	margin-top:1%;
+	margin-top:10px;
 	height:auto;
 	float:left;
 }
@@ -274,7 +273,7 @@ ul,li{
 }
 
 .smallbtn{
-	width:150px;
+	width:100%;
 	background:#1AAB8A;
 	color:#fff;
 	border:none;
@@ -395,7 +394,7 @@ function insertmemo(){
 			</div>
 			
 			<div class="addfile">
-				<input type="file" style="min-width:100%; min-height:80px;">
+				<input type="file" style="max-width:100%; min-height:80px;">
 			</div>
 		</div>
 	</div>
