@@ -225,15 +225,15 @@ ul,li{
 			<div class="usercontentheader">
 				<h3>김하나 손님의 현재까지 적금 현황</h3>
 				<br>
-				<h6>그룹명: 박금융과 자카르타여행</h6>
+				<h6>그룹명: 금융이랑 하금티랑 자카르타 여행</h6>
 			</div>
 			
 			<div id="bar-div">
-				<progress class="progressTag2" value="90" max="100"></progress>	
+				<progress class="progressTag2" value="100" max="100"></progress>	
 			</div>
 			
 			<div class="usercontentfooter">		
-				90% | 385,000원
+				100% | 440,000원
 			</div>
 			
 			<div class="usercontentheader">
@@ -257,46 +257,53 @@ ul,li{
 						<td>19.09.01</td>
 						<td>하여가 적금 자동출금</td>
 						<td>55,000</td>
-						<td>07</td>
+						<td>08</td>
 					</tr>
 					
 					<tr class="trrow">
 						<td>19.08.01</td>
 						<td>하여가 적금 자동출금</td>
 						<td>55,000</td>
-						<td>06</td>
+						<td>07</td>
 					</tr>
 					
 					<tr class="trrow">
 						<td>19.06.01</td>
 						<td>하여가 적금 자동출금</td>
 						<td>55,000</td>
-						<td>05</td>
+						<td>06</td>
 					</tr>
 					
 					<tr class="trrow">
 						<td>19.05.01</td>
 						<td>하여가 적금 자동출금</td>
 						<td>55,000</td>
-						<td>04</td>
+						<td>05</td>
 					</tr>
 					
 					<tr class="trrow">
 						<td>19.04.01</td>
 						<td>하여가 적금 자동출금</td>
 						<td>55,000</td>
-						<td>03</td>
+						<td>04</td>
 					</tr>
 					
 					<tr class="trrow">
 						<td>19.03.01</td>
 						<td>하여가 적금 자동출금</td>
 						<td>55,000</td>
-						<td>02</td>
+						<td>03</td>
 					</tr>
 					
 					<tr class="trrow">
 						<td>19.02.01</td>
+						<td>하여가 적금 자동출금</td>
+						<td>55,000</td>
+						<td>02</td>
+					</tr>
+					
+					<tr class="trrow">
+						<td>19.01.01</td>
 						<td>하여가 적금 자동출금</td>
 						<td>55,000</td>
 						<td>01</td>
