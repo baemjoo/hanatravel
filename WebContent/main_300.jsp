@@ -73,11 +73,11 @@
 <!-- 			    		그룹별로 클릭 시 그룹 상세 내역 접근 필요 -->
 			    		<div style="height:160px; background-color:lightblue; border:2px solid lightgray; margin:5px;">
 							<h2 class="group_text1" style="margin-left:10px;">박금융과 다낭여행</h2>
-							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 일정: 19.10.01 ~ 19.10.05</h6>
+							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 일정: 19.11.01 ~ 19.11.05</h6>
 							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 도시: 다낭(베트남)</h6>
 							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">참여 인원: 2</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">목표액: 815,458원 (각 407,729원)</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">진행현황 90% (733,912원)</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">목표액: 880,000원 (각 440,000원)</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">진행현황 90% (792,000원)</h6>
 			    		</div>
 			    		<div style="height:160px; background-color:lightblue; border:2px solid lightgray; margin:5px;">
 							<h2 class="group_text1" style="margin-left:10px;">하나고 친구들과 미국 서부 일주</h2>
@@ -92,24 +92,24 @@
 							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 일정: 20.02.09 ~ 20.02.16</h6>
 							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 도시: 벤쿠버 (캐나다)</h6>
 							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">참여 인원: 3 </h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">목표액: 8,281,680원 (각 2,760,560원)</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">진행현황 45% (5,383,092원)</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">목표액: 8,400,000원 (각 2,800,000원)</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">진행현황 45% (3,780,000원)</h6>
 			    		</div>
 			    		<div style="height:160px; background-color:coral; border:2px solid lightgray; margin:5px;">
 							<h2 class="group_text1" style="margin-left:10px;">하금티와 더블 커플 여행</h2>
 							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 일정: 19.08.15 ~ 19.08.18</h6>
 							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 도시: 푸켓(태국)</h6>
 							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">참여 인원: 4</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">목표액: 3,743,120원 (각 935,780원)</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">진행현황 40% (1,497,248원)</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">목표액: 3,800,000원 (각 950,000원)</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">진행현황 40% (1,520,000원)</h6>
 			    		</div>
 			    		<div style="height:160px; background-color:lightgray; border:2px solid lightgray; margin:5px;">
 							<h2 class="group_text1" style="margin-left:10px;">박금융과 제주도 여행</h2>
 							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 일정: 17.05.07 ~ 17.05.11</h6>
 							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 도시: 제주도(한국)</h6>
 							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">참여 인원: 2</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">목표액: 1,032,432원 (각 516,216원)</h6>
-							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">진행현황 100% (1,032,432원)</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">목표액: 1,040,000원 (각 520,000원)</h6>
+							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">진행현황 100% (1,040,000원)</h6>
 			    		</div>
 			    	</div>
 			    	<div id="pagenation_field" align="center" style="height:50px; border:2px solid lightgray; margin:5px;">
