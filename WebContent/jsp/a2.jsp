@@ -287,9 +287,9 @@ button{
 </style>
 
 <!-- datepicker -->
-<link rel="stylesheet" href="datepicker/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+<link rel="stylesheet" href="../datepicker/jquery-ui-1.12.1.custom/jquery-ui.min.css">
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-<script src="datepicker/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="../datepicker/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
 
 
 <script>
@@ -309,14 +309,14 @@ function delUser(username,age,cellphone){
 
 
 function showPopup(){
-	openWin = window.open("a2test_2.jsp",
+	openWin = window.open("a2_2.jsp",
             "childForm", "width=1000px, height=500px, resizable = no, scrollbars = no");    
 }
 
 function resultBtnclick(){
 	
 	 var fromdate = $("#fromDate").datepicker({ dateFormat: 'yy-mm-dd' }).val();
-	 alert(fromdate);
+	
 	 
 	 var fromyear = fromdate.substring(0,4);
 
@@ -325,7 +325,7 @@ function resultBtnclick(){
 	 var fromday = fromdate.substring(8,10);
 	 
 	 var todate = $("#toDate").datepicker({ dateFormat: 'yy-mm-dd' }).val();
-	 alert(todate);
+
 	 
 	 var toyear = todate.substring(0,4);
 
