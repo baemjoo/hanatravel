@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>여행HANA</title>
-<link rel="stylesheet" href="${ pageContext.request.contextPath }/resources/css/basic.css">
+
 <style>
 
 
@@ -182,10 +182,11 @@ ul,li{
 	float:left;
 }
 .userdiv{
-	width:90%;
+	width:100%;
 	height:50px;
 	margin:1%;
-	display:inline-block;
+	clear: both;
+	display:flex;
 }
 .userdiv-progress{
 	margin:2%;
@@ -194,7 +195,6 @@ ul,li{
 	float:left;
 }
 .userdiv-button{
-	margin:2%;
 	width:10%;	
 	height:30px;
 	float:left;
@@ -225,7 +225,7 @@ ul,li{
     position: absolute;
     top: -5px;
     left: 0;
-    z-index: 1;
+    z-index: 2;
 }
 .userprogress:after{
     border: 7px solid #e9e9ea;
@@ -252,7 +252,7 @@ ul,li{
     position: absolute;
     top: -12px;
     right: 0;
-    z-index: 2;
+    z-index: 0;
 }
 .userprogress.orange:before{ border: 7px solid #fe3b3b; }
 .userprogress.blue:before{ border: 7px solid #1a4966; }
@@ -293,7 +293,7 @@ ul,li{
 
 
 		.smallbtn{
-			width:100px;
+			width:100%;
 			background:#1AAB8A;
 			color:#fff;
 			border:none;
@@ -304,11 +304,63 @@ ul,li{
 			border:none;
 		}
 
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 3; /* Sit on top */
+  padding-top: 90px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    transition:visibility 0s linear 0.1s,opacity 0.3s ease;
+}
+
+/* Modal Content */
+.modal-content {
+
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  text-align:center;
+  border: 7px double rgba(28,110,164,0.24);
+  border-radius: 17px;
+  width: 80%;
+  height:300px;
+}
+
+#ModalContainer{
+	padding:20px;
+    z-index: 4;
+    transform: translateY(-50%); 
+    box-shadow:  0 0 10px #fff;
+    background-color: #fff;
+    text-align: center;
+}
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 </style>
 <script>
-function showPopup(){
-	openWin = window.open("a5test_2.jsp",
-            "childForm", "width=1000px, height=500px, resizable = no, scrollbars = no");    
+
+function remit(){
+	
 }
 </script>
 </head>
@@ -353,8 +405,10 @@ function showPopup(){
 	
 			<!-- 100%달성시 button 노출 -->
 		    <div class="userdiv-button">
-		        <input type="button" class="smallbtn" value="REWARD">
-		        <span id="dd"></span>
+		        <input type="button" class="smallbtn" value="REWARD" onclick="rewardClick()">
+		    </div>
+		     <div class="userdiv-button">
+		        <input type="button" class="smallbtn" value="송금" onclick="remitclick()">
 		    </div>
 		    </div>
 		</div>
@@ -375,12 +429,14 @@ function showPopup(){
 			</div>
 			
 		    <div class="userdiv-button">
-		        <input type="button" class="smallbtn" value="REWARD" onclick="showPopup()">
+		        <input type="button" class="smallbtn" value="REWARD" onclick="rewardClick()">
+		    </div>
+		     <div class="userdiv-button">
+		        <input type="button" class="smallbtn" value="송금" onclick="remitclick()">
 		    </div>
 		    </div>
 		</div>
-		
-		
+			
 		<div class="usercontent">
 			<div class="contentheader">
 				<h4>3등 : 박금융님 (308,000원)</h4>
@@ -396,17 +452,78 @@ function showPopup(){
 		        </div>	
 			</div>
 			
-		    <div class="userdiv-button">
-		        <input type="button" class="smallbtn" value="REWARD">
-		    </div>
 		    </div>
 		</div>
 		
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+	
+	  <!-- Modal content -->
+	  <div id="ModalContent" class="modal-content">
+		<div id="ModalContainer">
+			
+			<div style=" margin:20px; width:40%; height:300px;  float:left; background-size: 100%;">
+				<img src="../image/reward1.png" style="max-width: 100%; height:auto"/>
+				두니아 놀이공원 티켓
+			</div>
+			<div style=" margin-top:20px; margin-left:40px; width:40%; height:300px;  float:left; background-size: 100%;">
+				<img src="../image/reward2.jpg" style="max-width: 100%; height:auto"/>
+				우대금리
+			</div>
+		</div>
+	  </div>
 	</div>
+	
+	<!-- The Modal -->
+	<div id="myModal2" class="modal">
+	
+	  <!-- Modal content -->
+	  <div id="ModalContent" class="modal-content">
+		<div id="ModalContainer" >
+			
+			<div style=" margin:20px; width:80%; height:auto;  float:left; background-size: 100%;">
+				<img src="../image/alert.png" style="width: 100%; height:auto"/>
+			</div>
+		</div>
+	  </div>
+	</div>
+	
+
 </div>
+		
+</div>
+
 
 <!-- <footer> -->
 	<jsp:include page = "footer.jsp" flush="true"></jsp:include>
 <!-- </footer> -->
 </body>
+<script>
+	var modal = document.getElementById("myModal");
+	
+	function rewardClick(){
+	    // do something
+		modal.style.display = "block";
+	    
+	}	//When the user clicks the button, open the modal
+	
+	var modal2 = document.getElementById("myModal2");
+	function remitclick(){
+	    // do something
+		modal2.style.display = "block";
+	    
+	}	
+	
+	window.onclick = function(event) {
+		if (event.target == modal || event.target == modal2) {
+		 modal.style.display = "none";
+		 modal2.style.display = "none";
+		}
+	};
+	
+	
+//When the user clicks the button, open the modal
+
+
+</script>
 </html>
