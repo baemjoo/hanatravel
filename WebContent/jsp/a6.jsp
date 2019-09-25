@@ -155,16 +155,16 @@ ul,li{
 	<div id="content">
 		<table>
 			<tr style="width:100%;">
-				<td style="width:23%"><img style="max-width:100%" src="../image/travelInfoImage/jaka1.png"></img></td>
-				<td style="width:23%"><img style="max-width:100%"src="../image/travelInfoImage/jaka2.png"></img></td>
-				<td style="width:23%"><img style="max-width:100%" src="../image/travelInfoImage/jaka3.png"></img></td>
-				<td style="width:23%"><img style="max-width:100%" src="../image/travelInfoImage/jaka4.png"></img></td>
+				<td style="width:25%; height:auto"><img style="max-width:100%; height:auto;"   src="../image/travelInfoImage/jaka1.png"></img></td>
+				<td style="width:25%; height:auto"><img style="max-width:100%; height:auto;"   src="../image/travelInfoImage/jaka2.png"></img></td>
+				<td style="width:25%; height:auto"><img style="max-width:100%; height:auto;"   src="../image/travelInfoImage/jaka3.png"></img></td>
+				<td style="width:25%; height:auto"><img style="max-width:100%; height:auto;"   src="../image/travelInfoImage/jaka4.png"></img></td>
 			</tr>
 			<tr>
-				<td style="width:25%"><img src="../image/travelInfoImage/jaka5.png"></img></td>
-				<td style="width:25%"><img src="../image/travelInfoImage/jaka6.png"></img></td>
-				<td style="width:25%"><img src="../image/travelInfoImage/jaka7.png"></img></td>
-				<td style="width:25%"><img src="../image/travelInfoImage/jaka8.png"></img></td>
+				<td style="width:25%; height:auto"><img style="max-width:100%; height:auto;" src="../image/travelInfoImage/jaka5.png"></img></td>
+				<td style="width:25%; height:auto"><img style="max-width:100%; height:auto;" src="../image/travelInfoImage/jaka6.png"></img></td>
+				<td style="width:25%; height:auto"><img style="max-width:100%; height:auto;" src="../image/travelInfoImage/jaka7.png"></img></td>
+				<td style="width:25%; height:auto"><img style="max-width:100%; height:auto;" src="../image/travelInfoImage/jaka8.png"></img></td>
 			</tr>
 		</table>
 	</div>
