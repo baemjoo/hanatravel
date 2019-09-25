@@ -273,6 +273,17 @@ ul,li{
     border:1px solid #D8D8D8;
 }
 
+.smallbtn{
+	width:150px;
+	background:#1AAB8A;
+	color:#fff;
+	border:none;
+}
+.smallbtn:hover{
+	background:#fff;
+	color:#1AAB8A;
+	border:none;
+}
 
 </style>
 
@@ -380,7 +391,7 @@ function insertmemo(){
 			</div>
 			
 			<div class="addbtn">
-				<input type="button" value="등록" style="min-width:100%; min-height:80px;" onclick="insertmemo()">
+				<input type="button" class="smallbtn" value="등록" style="min-width:100%; min-height:80px;" onclick="insertmemo()">
 			</div>
 			
 			<div class="addfile">
