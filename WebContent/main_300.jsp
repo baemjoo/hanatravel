@@ -72,9 +72,9 @@
 			    	<div id="group_field" style="height:850px; border:2px solid lightgray; margin:5px;">
 <!-- 			    		그룹별로 클릭 시 그룹 상세 내역 접근 필요 -->
 			    		<div style="height:160px; background-color:lightblue; border:2px solid lightgray; margin:5px;">
-							<h2 class="group_text1" style="margin-left:10px;">박금융과 다낭여행</h2>
+							<h2 class="group_text1" style="margin-left:10px;">박금융과 자카르타여행</h2>
 							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 일정: 19.11.01 ~ 19.11.05</h6>
-							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 도시: 다낭(베트남)</h6>
+							<h6 class="group_text2" align="right" style="margin:0 10px 0 0;">여행 도시: 자카르타(인도네시아)</h6>
 							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">참여 인원: 2</h6>
 							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">목표액: 880,000원 (각 440,000원)</h6>
 							<h6 class="group_text3" align="right" style="margin:0 10px 0 0;">진행현황 90% (792,000원)</h6>
