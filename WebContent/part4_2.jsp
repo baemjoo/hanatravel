@@ -260,21 +260,21 @@ ul,li{
 					
 					<%-- DB 반복 <c:forEach items="" var=""> --%>
 					<tr class="trrow">
-						<td>19.09.23</td>
+						<td>19.09.01</td>
 						<td>하여가 적금 자동출금</td>
 						<td>55,000</td>
 						<td>07</td>
 					</tr>
 					
 					<tr class="trrow">
-						<td>19.08.22</td>
+						<td>19.08.01</td>
 						<td>하여가 적금 자동출금</td>
 						<td>55,000</td>
 						<td>06</td>
 					</tr>
 					
 					<tr class="trrow">
-						<td>19.07.22</td>
+						<td>19.07.01</td>
 						<td>하여가 적금 자동출금</td>
 						<td>55,000</td>
 						<td>06</td>
